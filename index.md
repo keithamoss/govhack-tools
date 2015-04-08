@@ -623,7 +623,7 @@ One of the more obvious uses for graph databases are to store and analyse the re
 The GovCamp wiki has a [long list of tools](http://govcampau.wikispaces.com/useful+tools) surrounding linked data that may be of use - [Svgvizler](http://dev.data2000.no/sgvizler/) (for SPARQL graphing), [RelFinder](http://www.visualdataweb.org/relfinder.php) (for RDF visual exploration), and [SPARQL Editor](http://openuplabs.tso.co.uk/demos/sparqleditor) (for interactive SPARQL query building) are useful too.
 
 
-## Graph Databases
+## Graph DB Software
 
 [Neo4j](http://neo4j.com/) is the popular kid on the graph database block and has a wealth of supporting tools and documentation; and a great community.
 
