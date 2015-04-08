@@ -7,67 +7,6 @@ If you're new to GovHack (or are just a little unclear on the process involved) 
 Beyond that, you'll find a range of useful resources from [technical considerations]() in publishing your entry, resources for working with [geospatial]() or [tabular]() data, to extracting good data from [messy unstructured sources](), and much more besides.
 
 
-# Document @TODOs
-* Links in the intro
-* Anatomy: Amusing anatomy image in the sidebar
-* Anatomy: Link to info on open licenses
-* Prepare video: Are there any new (free) tools available?
-* Submit project: Open license links and info
-* Data section: Does it even need to be here? The website features the 2015 Data page pretty prominently
-* The right tools for the job: An Agile image
-* Data Viz: What of "Designing for humans" section?
-* Data Viz: What of "Hone your programming skills" section?
-* Building and designing your own API: Flask?
-* QGIS: Mention ArcGIS, GRASSGIS, uDIG, et cetera?
-* Spatial "Language bindings" section: Rename? Need to fix the link in the "Converting between data formats" section if so.
-* Working with geographic data and maps: GeoJson/TopoJson, GitHub viewing
-* Working with geographic data and maps: Principles of components need for spatial [here](http://georabble.org/2012/05/31/the-boundary-mappers-cookbook/)
-* @TODO Finding geospatial data:
-** Link to relevant spatial section of the GovHack Data page? As per the 'Data section' @TODO
-** Point at the ABS Geography site (asga2pgsql), Census data, GA's Find
-** There are a variety of base layers like [AGRI aerial imagery of Australia](http://agri.openstreetmap.org/) or WMS services like [GIS Lab WMS](http://irs.gis-lab.info/) or the [OSM TMS Service](http://www.gdal.org/frmt_wms_openstreetmap_tms.xml). Check out the [Geoscience Australia Geo Dataset search and preview](http://www.ga.gov.au/search/index.html#/showMap). ASGS from ABS including suburbs/postcodes [Andrew Harvey](https://andrewharvey4.wordpress.com/2012/04/15/loading-the-asgs-into-postgresql-in-preperation-for-the-abs-2011-census-data-release/). You can also get KML layers for various statistical measures on the [ABS TableBuilder tool](http://www.abs.gov.au/websitedbs/censushome.nsf/home/tablebuilder).
-
-
-* GovHack Toolkit or GovHack Guide?
-* Loot anything good in the last version that hasn't yet been pulled across
-* Does it make more sense as two separate documents: One a guide to the GovHack competition, one a list of resources?
-* Run it past some participants for input
-* Helen will also review for writing, consistency, and all of that good stuff
-* NationalMap, Mashery, and Socrata got junked - they belong on the Data page.
-* Is there a better place / pitch for the Data Scientist section?
-* The Web Application section got junked. Can advise about Bootstrap, Foundation, et al. somewhere else
-* Where to put advanced webby stuff e.g. https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/UdGlL9PtBLo
-* Check for consistency of terms used (entries vs projects, et cetera)
-* Screenshots and company/project logos
-* Integrating and formatting for govhack.org
-* <a href="#">Buttons? ></a>
-* Fix formatting on the YouTube videos
-* Rename "Technical Considerations"?
-* Review content (e.g. tools) that weren't directly reworded
-* Review tools sections for newer tools!
-* The web and mobile examples sections were junked (inc. The Open Budget). Are they useful in this context?
-* Review "Developer tools for your computer"
-* Stick Vagrant/Docker/Fig somewhere
-* Talk with H about porting some of the perth.govhack.org content over to a sort of GovHack Orientation Thingo (along w/ the top of this doc)
-* Make it easier / more prominent to leave feedback
-* Run past a couple of participants for feedback on layout, UX, and content.
-* Something about spatial for Android and iOS
-* Add http://mapstarter.com/
-* Highcharts et cetera
-* Plot.ly, Create.ly, et cetera
-* Loot http://geothought.blogspot.com.au/2015/03/review-of-foss4g-na-2015.html for more shiny spatial tools. Oh so many shiny!
-* Link the data viz and web mapping sections.
-* Mention https://github.com/sorrycc/awesome-javascript and stuff
-* FME
-* http://community.pentaho.com/projects/data-integration/
-* Python geospatial viz http://ioam.github.io/holoviews/
-* [Datawrapper](https://datawrapper.de/) Create charts and maps in just four steps. This tool reduces the time you need to create visualizations from hours to minutes.
-* OpenRefine in "Scraping data"
-* High-level link to https://github.com/quozd/awesome-dotnet for various popular languages ("If you can't find..look here"). Orrrrr should we - longer-term - just contribute to those rather than making so many words around them in the toolkit?
-* Ping Nick Evershed re the visualisation sections
-* http://scrapekit.readthedocs.org/en/latest/
-
-
 # Anatomy of a GovHack project
 
 We only have three firm requirements for your GovHack project:
@@ -744,3 +683,66 @@ But sometimes you care less about the connections in your network and more about
 
 # Legalese
 The text of this toolkit is open for reuse under a [Creative Commons Attribution](https://creativecommons.org/licenses/by/3.0/au/deed.en) license and improvements and suggestions are encouraged by submitting them on [GitHub](http://github.com/govhackaustralia/govhack-tools/issues).
+
+
+
+
+# Document @TODOs
+* Links in the intro
+* Anatomy: Amusing anatomy image in the sidebar
+* Anatomy: Link to info on open licenses
+* Prepare video: Are there any new (free) tools available?
+* Submit project: Open license links and info
+* Data section: Does it even need to be here? The website features the 2015 Data page pretty prominently
+* The right tools for the job: An Agile image
+* Data Viz: What of "Designing for humans" section?
+* Data Viz: What of "Hone your programming skills" section?
+* Building and designing your own API: Flask?
+* QGIS: Mention ArcGIS, GRASSGIS, uDIG, et cetera?
+* Spatial "Language bindings" section: Rename? Need to fix the link in the "Converting between data formats" section if so.
+* Working with geographic data and maps: GeoJson/TopoJson, GitHub viewing
+* Working with geographic data and maps: Principles of components need for spatial [here](http://georabble.org/2012/05/31/the-boundary-mappers-cookbook/)
+* @TODO Finding geospatial data:
+** Link to relevant spatial section of the GovHack Data page? As per the 'Data section' @TODO
+** Point at the ABS Geography site (asga2pgsql), Census data, GA's Find
+** There are a variety of base layers like [AGRI aerial imagery of Australia](http://agri.openstreetmap.org/) or WMS services like [GIS Lab WMS](http://irs.gis-lab.info/) or the [OSM TMS Service](http://www.gdal.org/frmt_wms_openstreetmap_tms.xml). Check out the [Geoscience Australia Geo Dataset search and preview](http://www.ga.gov.au/search/index.html#/showMap). ASGS from ABS including suburbs/postcodes [Andrew Harvey](https://andrewharvey4.wordpress.com/2012/04/15/loading-the-asgs-into-postgresql-in-preperation-for-the-abs-2011-census-data-release/). You can also get KML layers for various statistical measures on the [ABS TableBuilder tool](http://www.abs.gov.au/websitedbs/censushome.nsf/home/tablebuilder).
+
+
+* GovHack Toolkit or GovHack Guide?
+* Loot anything good in the last version that hasn't yet been pulled across
+* Does it make more sense as two separate documents: One a guide to the GovHack competition, one a list of resources?
+* Run it past some participants for input
+* Helen will also review for writing, consistency, and all of that good stuff
+* NationalMap, Mashery, and Socrata got junked - they belong on the Data page.
+* Is there a better place / pitch for the Data Scientist section?
+* The Web Application section got junked. Can advise about Bootstrap, Foundation, et al. somewhere else
+* Where to put advanced webby stuff e.g. https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/UdGlL9PtBLo
+* Check for consistency of terms used (entries vs projects, et cetera)
+* Screenshots and company/project logos
+* Integrating and formatting for govhack.org
+* <a href="#">Buttons? ></a>
+* Fix formatting on the YouTube videos
+* Rename "Technical Considerations"?
+* Review content (e.g. tools) that weren't directly reworded
+* Review tools sections for newer tools!
+* The web and mobile examples sections were junked (inc. The Open Budget). Are they useful in this context?
+* Review "Developer tools for your computer"
+* Stick Vagrant/Docker/Fig somewhere
+* Talk with H about porting some of the perth.govhack.org content over to a sort of GovHack Orientation Thingo (along w/ the top of this doc)
+* Make it easier / more prominent to leave feedback
+* Run past a couple of participants for feedback on layout, UX, and content.
+* Something about spatial for Android and iOS
+* Add http://mapstarter.com/
+* Highcharts et cetera
+* Plot.ly, Create.ly, et cetera
+* Loot http://geothought.blogspot.com.au/2015/03/review-of-foss4g-na-2015.html for more shiny spatial tools. Oh so many shiny!
+* Link the data viz and web mapping sections.
+* Mention https://github.com/sorrycc/awesome-javascript and stuff
+* FME
+* http://community.pentaho.com/projects/data-integration/
+* Python geospatial viz http://ioam.github.io/holoviews/
+* [Datawrapper](https://datawrapper.de/) Create charts and maps in just four steps. This tool reduces the time you need to create visualizations from hours to minutes.
+* OpenRefine in "Scraping data"
+* High-level link to https://github.com/quozd/awesome-dotnet for various popular languages ("If you can't find..look here"). Orrrrr should we - longer-term - just contribute to those rather than making so many words around them in the toolkit?
+* Ping Nick Evershed re the visualisation sections
+* http://scrapekit.readthedocs.org/en/latest/
