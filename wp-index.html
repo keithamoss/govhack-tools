@@ -6,7 +6,7 @@
   Flatdoc.run({
     fetcher: Flatdoc.github('keithamoss/govhack-tools', 'index.md')
   });
-  $("body").addClass("no-literate large-brief").attr("role", "flatdoc");
+  $("body").addClass("no-literate large-brief big-h3").attr("role", "flatdoc");
 </script>
 
 <style>
@@ -16,11 +16,24 @@
 .content-root {
   margin-top: 15px;
 }
+.entry-content {
+  margin-top: -50px;
+}
+.content h1:before {
+  height: 3px;
+}
+.content h2 {
+  font-size: 1.2em;
+  padding-top: 60px;
+}
+.content h3 {
+  font-size: 1.1em;
+  color: grey;
+}
 </style>
 
 <div class="header">
   <div class="left">
-    <h1>GovHack Developer Toolkit</h1>
     <ul>
       <li><a href="https://github.com/govhackaustralia/govhack-tools">View on GitHub</a></li>
       <li><a href="https://github.com/govhackaustralia/govhack-tools/issues">Report an Issue</a></li>

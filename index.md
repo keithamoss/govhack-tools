@@ -703,12 +703,10 @@ The text of this toolkit is open for reuse under a [Creative Commons Attribution
 # Document @TODOs
 * Review the old version side-by-side for any missed content
 * Think about breaking the non-technical sections (Anatomy of a GovHack project, Preparing for GovHack, ...) off into a separate "Event Information" page (e.g. http://perth.govhack.org/category/event/). Talk with H about porting some of the perth.govhack.org content over to a sort of GovHack Orientation Thingo (along w/ the top of this doc)
-* Making it play nicely with the Wordpress theme.
 * Incorporating screenshots, company logos, amusing pics to break up the wall of text.
 ** Amusing anatomy image in the sidebar
 ** The right tools for the job: An Agile image
 * Run it past some participants for input (feedback on layout, UX, and content
 * Ping Nick Evershed re the visualisation sections
 * Helen will also review for writing, consistency, and all of that good stuff
-* The web and mobile examples sections were junked (inc. The Open Budget). Are they useful in this context?
-* Longer-term - just contribute to / maintain one of the https://github.com/t3chnoboy/awesome-awesome-awesome rather than having so many words around them in the toolkit?
+* Longer-term: Should we just contribute to / maintain one of the https://github.com/t3chnoboy/awesome-awesome-awesome rather than having so many words around them in the toolkit?
