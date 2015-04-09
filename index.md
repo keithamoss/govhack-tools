@@ -4,7 +4,7 @@ This page provides all the information you'll need to prepare your GovHack entri
 
 If you're new to GovHack (or are just a little unclear on the process involved) we strongly encourage you to read the [Anatomy of GovHack project](#anatomy-of-govhack-project) section at the top of this page to find out all about the process of registering, preparing, and submitting your entry.
 
-Beyond that, you'll find a range of useful resources from [technical considerations]() in publishing your entry, resources for working with [geospatial]() or [tabular]() data, to extracting good data from [messy unstructured sources](), and much more besides.
+Beyond that, you'll find a range of useful resources from [how best to put your entry online](#putting-your-project-on-the-web), to [suggestions of tools to use to maximise your hacking productivity](#having-the-right-tools-for-the-job), resources for working with [geospatial](#working-with-geographic-data-and-maps) and [tabular](#working-with-tabular-data) data, to extracting good data from [messy unstructured sources](#scraping-data-from-pdfs-and-the-web), and much more inbetween.
 
 
 # Anatomy of a GovHack project
