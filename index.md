@@ -1,4 +1,4 @@
-# The GovHack Toolkit
+# The GovHack Developer Toolkit
 
 This page provides all the information you'll need to prepare your GovHack entries, and a wealth of links to tools, techniques, and libraries to help you build an awesome project. You can use these resources to build any sort of project - mobile apps, web apps, APIs, data visualisations/infographics, and more. You're not limited to using the resources and tools in this page, but your actual entries must meet the [competition eligibility rules](http://www.govhack.org/competition-rules-code-of-conduct/).
 
@@ -70,17 +70,15 @@ Check out the [GovHack Mentors page](http://www.govhack.org/mentors/) for more i
 <!-- "Help me, Obi Wan Kenobi. You're my only hope." -- Princess Leia -->
 
 
-# Technical considerations
-
-## Putting your project on the web
+# Putting your project on the web
 
 We've already spoken about how you can submit your project source materials, but you'll more than likely also need a place to host your application on the web.
 
-### Virtual servers
+## Virtual servers
 
 If you're building any sort of web-connected application (be it web, mobile, or a desktop application) you'll need a server to host it on. These days virtual servers are a dime a dozen (and often significantly cheaper than that) - be they a blank box with command line access that you setup yourself (aka [IAAS](http://en.wikipedia.org/wiki/Infrastructure_as_a_service "Infrastructure as a service")), or a [PAAS](http://en.wikipedia.org/wiki/Platform_as_a_service "Platform as a service") solution that gives you click-button access to databases, caching layers, system utilities, monitoring, and analytics services - all with a nice GUI to keep you from having to delve into command line hell.
 
-#### Amazon Web Services
+### Amazon Web Services
 
 Thanks to the generous support of Amazon Web Services we've got $100 vouchers for each GovHack team. Simply [fill out this form](http://www.govhack.org/amazon-web-services/), including your AWS account number and your team page URL from HackerSpace.
 
@@ -88,13 +86,13 @@ There is also a free tier of usage available to all new AWS accounts, see the [A
 
 Those new to AWS should check out the [Getting Started with AWS guide](http://aws.amazon.com/getting-started/).
 
-#### NeCTAR
+### NeCTAR
 
 The [National Research Cloud](http://nectar.org.au/research-cloud) (aka NeCTAR) is just like Amazon Web Services, however it is run on open source software ([OpenStack](https://www.openstack.org/)) and is for use by academics and researchers in Australia. In physical terms, NeCTAR spans [eight data centres](https://www.nectar.org.au/news/where-are-nectar-cloud-node-sites-located) around Australia (located at top ranked Higher Education Institutions) which have combined to provide the largest Federated Academic Cloud in the world at 30,000 cores.
 
 Any university student/staff with a valid .edu.au email address can logon right now and use two "small instances / cores" for three months for free. After the initial three month period there is a simple "allocation tab" on the dashboard where you can apply for longer usage or more compute cycles. The allocation form is a simple one page description of your research and how you are using the cloud for that research.
 
-#### Azure, Google Compute Engine, et al.
+### Azure, Google Compute Engine, et al.
 
 Trying to list all of the options for virtual server hosting would be a fool's errand, so here are just some of the most popular [IAAS](http://en.wikipedia.org/wiki/Infrastructure_as_a_service "Infrastructure as a service") and [PAAS](http://en.wikipedia.org/wiki/Platform_as_a_service "Platform as a service") options at the moment.
 
@@ -109,7 +107,7 @@ We'd be remiss if we didn't mentions Microsoft's really rather excellent [Azure]
 Lastly, we have to mention [Heroku](https://www.heroku.com/) and its great PAAS offerings.
 
 
-### Static website hosting
+## Static website hosting
 
 If your project, by virtue of its nature, doesn't already have a web presence (e.g. it's a mobile app or a game) then you're very likely going to need host a static website somewhere (i.e. A pile of HTML, CSS, and JavaScript) to give your project a home.
 
@@ -120,14 +118,14 @@ If you prefer to start from scratch (on GitHub Pages or elsewhere) [Bootstrap](h
 Beyond GitHub you could also look at hosting your site for free on [Azure](http://azure.microsoft.com/en-us/documentation/articles/web-sites-publish-source-control/) or creating a static site [on Heroku](http://www.lemiffe.com/how-to-deploy-a-static-page-to-heroku-the-easy-way/).
 
 
-## Having the right tools for the job
+# Having the right tools for the job
 
 So by now you've got your project idea taking shape, and have probably thought a little about your hosting infrastructure, but how do you turn this idea into reality and what tools do you need?
 
 Well, given the greatly compressed timespan of GovHack anything that can help keep you as responsive flexible - dare I say, [agile](http://www.allaboutagile.com/what-is-agile-10-key-principles/). Use the physical resources you have to hand - pens, butchers paper, post-it notes, a whiteboard (if you can purloin one) to help give your project planning a tangible, physical presence.
 
 
-### Source control and issue tracking
+## Source control and issue tracking
 
 We're assuming that everyone [already uses some form of source control system](http://kevgriffin.com/the-non-techie-guide-to-source-control/) (Git, Mercurial, maybe SVN) already. If not, get thee to [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), or [Bitbucket](https://bitbucket.org/) and grab a copy of their respective desktop applications if your code editor doesn't integrate that particular flavour of version control (it probably does).
 
@@ -135,17 +133,18 @@ For provider-independent source control clients both the [Tortoise family](http:
 
 We've lumped issue tracking for bugs, feature requests, research questions, et cetera in here as well just because almost all good hosted source control providers these days build in some sort of issue trackig functionality. No need to reinvent the wheel or go elsewhere!
 
-### Project management
+## Project management
 
 Honestly, your best project management tool for GovHack is probably a whiteboard, or butchers paper blutacked to a wall, with different coloured post-it notes. It gives your an immediate, physical, tangible thing to get up and interact with, look at, scribble on, and easily rearrange that no digital system is going to come close to giving you.
 
 But if you really want a digital solution then take a look at [Pivotal Tracker](http://www.pivotaltracker.com/), [Trello](https://trello.com/), or [Matterhorn](https://matterhorn.io/).
 
-### Code editors
+## Code editors
 
 You've all got your own favourite code editor or [IDE](http://en.wikipedia.org/wiki/Integrated_development_environment "Integrated development environment"), right? A hackathon is probably not the best time to learn a whole pile of new keyboard shortcuts, but if you're looking for inspiration go and check out [Atom](https://atom.io/), [Orion](http://eclipse.org/orion/), [Sublime Text 3](http://www.sublimetext.com/3), and [Brackets](http://brackets.io/).
 
 With honourary mentions going to [Eclipse](https://eclipse.org/downloads/) and [Visual Studio](http://www.visualstudio.com/) if you're after a larger, more fully-featured editor that excels at particular languages or ecosystems.
+
 
 
 # Preparing for GovHack
@@ -708,20 +707,15 @@ The text of this toolkit is open for reuse under a [Creative Commons Attribution
 ** There are a variety of base layers like [AGRI aerial imagery of Australia](http://agri.openstreetmap.org/) or WMS services like [GIS Lab WMS](http://irs.gis-lab.info/) or the [OSM TMS Service](http://www.gdal.org/frmt_wms_openstreetmap_tms.xml). Check out the [Geoscience Australia Geo Dataset search and preview](http://www.ga.gov.au/search/index.html#/showMap). ASGS from ABS including suburbs/postcodes [Andrew Harvey](https://andrewharvey4.wordpress.com/2012/04/15/loading-the-asgs-into-postgresql-in-preperation-for-the-abs-2011-census-data-release/). You can also get KML layers for various statistical measures on the [ABS TableBuilder tool](http://www.abs.gov.au/websitedbs/censushome.nsf/home/tablebuilder).
 
 
-* GovHack Toolkit or GovHack Guide?
 * Loot anything good in the last version that hasn't yet been pulled across
-* Does it make more sense as two separate documents: One a guide to the GovHack competition, one a list of resources?
+* Think about breaking the non-technical sections (Anatomy of a GovHack project, Preparing for GovHack, ...) off into a separate "Event Information" page (e.g. http://perth.govhack.org/category/event/).
+* Making it play nicely with the Wordpress theme.
+* Incorporating screenshots, company logos, amusing pics to break up the wall of text.
+* Making the left side menu scroll along with the body content, and highlight section titles.
 * Run it past some participants for input
 * Helen will also review for writing, consistency, and all of that good stuff
-* NationalMap, Mashery, and Socrata got junked - they belong on the Data page.
-* Is there a better place / pitch for the Data Scientist section?
-* The Web Application section got junked. Can advise about Bootstrap, Foundation, et al. somewhere else
-* Where to put advanced webby stuff e.g. https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/UdGlL9PtBLo
-* Check for consistency of terms used (entries vs projects, et cetera)
-* Screenshots and company/project logos
-* Integrating and formatting for govhack.org
-* <a href="#">Buttons? ></a>
-* Fix formatting on the YouTube videos
+
+
 * Rename "Technical Considerations"?
 * Review content (e.g. tools) that weren't directly reworded
 * Review tools sections for newer tools!
