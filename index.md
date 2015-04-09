@@ -4,7 +4,7 @@ This page provides all the information you'll need to prepare your GovHack entri
 
 If you're new to GovHack (or are just a little unclear on the process involved) we strongly encourage you to read the [Anatomy of GovHack project](#anatomy-of-govhack-project) section at the top of this page to find out all about the process of registering, preparing, and submitting your entry.
 
-Beyond that, you'll find a range of useful resources from [how best to put your entry online](#putting-your-project-on-the-web), to [suggestions of tools to use to maximise your hacking productivity](#having-the-right-tools-for-the-job), resources for working with [geospatial](#working-with-geographic-data-and-maps) and [tabular](#working-with-tabular-data) data, to extracting good data from [messy unstructured sources](#scraping-data-from-pdfs-and-the-web), and much more inbetween.
+Beyond that, you'll find a range of useful resources from [how best to put your entry online](#putting-your-project-on-the-web), to [suggestions of tools to use to maximise your hacking productivity](#tools-to-make-your-hacking-more-productive), resources for working with [geospatial](#working-with-geographic-data-and-maps) and [tabular](#working-with-tabular-data) data, to extracting good data from [messy unstructured sources](#scraping-data-from-pdfs-and-the-web), and much more.
 
 
 # Anatomy of a GovHack project
@@ -13,7 +13,7 @@ We only have three firm requirements for your GovHack project:
 
 * That you register your team and fill our your project information,
 * that you submit a 3 minute video by the end of the competition (5:30PM AEST Sunday), and
-* that you make your project source code and assets available online under an open license.
+* that you make your project source code and assets available online under an open license (such as [Creative Commons](http://creativecommons.org.au/)).
 
 It's useful to bear in mind that the competition judges will be focused on the tangible outcomes of your project, so making your team page a snazzy and useful resource with information about your project, screenshots, your 3 minute video, and anything else that shows off how *awesome* your project is is actually REALLY important :)
 
@@ -45,7 +45,7 @@ And again, if you are unsure about what you need to do, or just need a bit of he
 
 ## Submit your project
 
-The last tenet of GovHack is that you submit all of your source code and assets (data, documents, art assets, et cetera) and make the available under an open license. Typically this will comprise the source code for a web or mobile application, but for other types of works (e.g. 3D printed jewlery) that can be your notes and evidence of your prototypes.
+The last tenet of GovHack is that you submit all of your source code and assets (data, documents, art assets, et cetera) and make the available under an open license (such as [Creative Commons](http://creativecommons.org.au/)). Typically this will comprise the source code for a web or mobile application, but for other types of works (e.g. 3D printed jewlery) that can be your notes and evidence of your prototypes.
 
 The key point to remember is that your source material needs to demonstrate to the competition judges that the end result was your own work, and that it is possible for another person, with the right knowledge and equipment, to replicate that work.
 
@@ -54,11 +54,6 @@ You're free to submit your source materials in any fashion, but typically we fin
 Check out our short video on getting set up with GitHub for GovHack:
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/gQsC-msLW2E" frameborder="0" allowfullscreen></iframe>
-
-
-# Data
-
-We have a whole page dedicated to the Government (and other) datasets that you'll be using in your project. Check out the [GovHack Data page](http://www.govhack.org/data) for all of the details.
 
 
 # Mentors
@@ -74,7 +69,7 @@ Check out the [GovHack Mentors page](http://www.govhack.org/mentors/) for more i
 
 We've already spoken about how you can submit your project source materials, but you'll more than likely also need a place to host your application on the web.
 
-## Virtual servers
+## Cloud servers
 
 If you're building any sort of web-connected application (be it web, mobile, or a desktop application) you'll need a server to host it on. These days virtual servers are a dime a dozen (and often significantly cheaper than that) - be they a blank box with command line access that you setup yourself (aka [IAAS](http://en.wikipedia.org/wiki/Infrastructure_as_a_service "Infrastructure as a service")), or a [PAAS](http://en.wikipedia.org/wiki/Platform_as_a_service "Platform as a service") solution that gives you click-button access to databases, caching layers, system utilities, monitoring, and analytics services - all with a nice GUI to keep you from having to delve into command line hell.
 
@@ -96,15 +91,25 @@ Any university student/staff with a valid .edu.au email address can logon right 
 
 Trying to list all of the options for virtual server hosting would be a fool's errand, so here are just some of the most popular [IAAS](http://en.wikipedia.org/wiki/Infrastructure_as_a_service "Infrastructure as a service") and [PAAS](http://en.wikipedia.org/wiki/Platform_as_a_service "Platform as a service") options at the moment.
 
-Google offers two services in this space - [Google Compute Engine](https://cloud.google.com/compute/) (IAAS) and [Google App Engine](https://cloud.google.com/appengine/) (PAAS). If containerised application development on Docker is your thing they also have [Google Container Engine](https://cloud.google.com/container-engine/) (in alpha) available.
+Google offers two services in this space - [Google Compute Engine](https://cloud.google.com/compute/) (IAAS) and [Google App Engine](https://cloud.google.com/appengine/) (PAAS). If containerised application development on Docker is your thing they also have [Google Container Engine](https://cloud.google.com/container-engine/) available (in alpha testing).
 
 Speaking of Docker - [Joyent](https://www.joyent.com/) offers some pretty slick support for Docker along with its traditional [IAAS and PAAS offerings](https://www.joyent.com/partners).
 
-For smaller scale IAAS-type services both [DigitalOcean](https://www.digitalocean.com/) and [Linode](https://www.linode.com/) have great offerings from $5/month.
+For smaller scale IAAS-type services both [DigitalOcean](https://www.digitalocean.com/) and [Linode](https://www.linode.com/) have great offerings from a mere $5/month.
 
-We'd be remiss if we didn't mentions Microsoft's really rather excellent [Azure](http://azure.microsoft.com/en-gb/) IAAS/PAAS services. You don't even need to be inside the .NET ecosystem to take advantage of them (though it does help a bit).
+And of coure there's Microsoft's really rather excellent [Azure](http://azure.microsoft.com/en-gb/) services (IAAS/PAAS). You don't even need to be inside the .NET ecosystem to take advantage of them (though it does help a bit).
 
-Lastly, we have to mention [Heroku](https://www.heroku.com/) and its great PAAS offerings.
+Lastly, [Heroku](https://www.heroku.com/) has a great PAAS offering if you need some simple out-of-the-box software that's within their ecosystem.
+
+### A word on containerisation (Docker)
+
+Containerisation and, more specifcally [Docker](https://www.docker.com/), is [all the rage right now](http://thomason.io/why-containerization-is-a-key-enabling-technology-for-paas/). If you haven't really run across containerisation before then think of it like server virtualisation on steroids - i.e. In a plain text file you specify the OS you want, the software you'd like installed (Apache, Nginx, Python, whatever), how you want to configure that software, where to find your code (locally, straight from GitHub), and the result is a tiny virtualised server.
+
+Said tiny virtualised server can then be spun up in minutes either on your laptop, in the cloud, or on your team mate's laptops and all of you will have exactly the same build and configuration. Say goodybe to the headaches of different configurations between development and live applications!
+
+[Docker](https://www.docker.com/) is the best project in this space at the moment, and they're busy building a great ecosystem including [a marketplace for containers](https://hub.docker.com/) and [tools for orchestrating multiple containers together into more complex applications](https://docs.docker.com/compose/).
+
+And due to Docker's crazy levels of popularity all of the aforemetnioned cloud server providers (AWS, Google, Azure, ...) have Docker support built-in!
 
 
 ## Static website hosting
@@ -118,7 +123,7 @@ If you prefer to start from scratch (on GitHub Pages or elsewhere) [Bootstrap](h
 Beyond GitHub you could also look at hosting your site for free on [Azure](http://azure.microsoft.com/en-us/documentation/articles/web-sites-publish-source-control/) or creating a static site [on Heroku](http://www.lemiffe.com/how-to-deploy-a-static-page-to-heroku-the-easy-way/).
 
 
-# Having the right tools for the job
+# Tools to make your hacking more productive
 
 So by now you've got your project idea taking shape, and have probably thought a little about your hosting infrastructure, but how do you turn this idea into reality and what tools do you need?
 
@@ -145,6 +150,9 @@ You've all got your own favourite code editor or [IDE](http://en.wikipedia.org/w
 
 With honourary mentions going to [Eclipse](https://eclipse.org/downloads/) and [Visual Studio](http://www.visualstudio.com/) if you're after a larger, more fully-featured editor that excels at particular languages or ecosystems.
 
+## Curated awesome lists of awesomeness
+
+We're going to list a whole lot of tools and libraries in the rest of this document, but we're so far from covering the full list of what's out there. So if you're after some tools for a particular programming language, platform, frontend or backend development, and so on check out the [curated list of awesome lists](https://github.com/sindresorhus/awesome) (and try not to be too overwhelmed by awesome projects).
 
 
 # Preparing for GovHack
@@ -175,19 +183,13 @@ If you'd like to strengthen your knowledge in any of the facets of data science 
 * [Data Analysis with Open Source Tools](https://booko.com.au/works/1168452) by Philipp K. Janert
 * [Data and visualization blogs worth following](http://flowingdata.com/2012/04/27/data-and-visualization-blogs-worth-following/) (FlowingData)
 
+Also - don't miss our [Data visualisation and infographics for fun and profit](#data-visualisation-and-infographics-for-fun-and-profit) section for a wealth of useful resources.
+
 ### Statistics
 * [Think Stats: Probability and Statistics for Programmers](https://booko.com.au/works/3475110)
 
 [![](img/How-to-participate-in-GovHack_html_m6a65720f-300x199.gif "Data Journalism Diagram")](img/How-to-participate-in-GovHack_html_m6a65720f.gif)</dt>
 Illustration from Data Journalism Handbook, CC BY-SA 3.0</dd>
-
-## Hone your programming skills
-
-Uh...
-
-## Designing for humans
-
-Uh...
 
 ## On the importance of APIs
 
@@ -195,7 +197,7 @@ There's a good chance that your project is going to need some sort of API to con
 
 ### APIs as a Service
 
-Services like [Mashery](http://www.mashery.com/), [Apigee](https://apigee.com/about/), [ApiAxle](http://apiaxle.com/), [3scale](http://www.3scale.net/) provide a quick and easy means to bootstrap your API and provide a range of neat features on the side like analytics and easy inspection and diagnosis of API errors.
+Services like [Mashery](http://www.mashery.com/), [Apigee](https://apigee.com/about/), [ApiAxle](http://apiaxle.com/), and [3scale](http://www.3scale.net/) provide a quick and easy means to bootstrap your API and provide a range of neat features on the side like analytics and easy inspection and diagnosis of API errors.
 
 ### Building and designing your own API
 
@@ -244,15 +246,16 @@ If you're not sure exactly what tool you're after and like staring at lists of t
 * Drawing By Number's [Visualisation Tools and Resources](https://drawingbynumbers.org/toolsandresources)
 * datavisualisation.ch's [selection of tools for visualisation](http://selection.datavisualization.ch/)
 
-#### Web visualisation libraries
+#### Web visualisation tools
 
 We couldn't mention data vis without giving a nod to [D3.js](http://d3js.org/) (Data Driven Documents) for creating interactive and amazingly detailed visualisations - find out more about [Why D3.js is So Great for Data Visualization](http://blog.visual.ly/why-d3-js-is-so-great-for-data-visualization/). Bewarned though, the learning is quite steep as you're starting out, but the web is full of thousand of D3.js examples that you should have no problems hacking into the shape you want (such as [word clouds](http://www.jasondavies.com/wordcloud/), [real-time filtering of barcharts](http://square.github.com/crossfilter/), and [bubble trees for comparing sizes](https://github.com/okfn/bubbletree), and [many, many more](http://bl.ocksplorer.org)). Check out these couple of great tutorials [Towards Reusable Charts](http://bost.ocks.org/mike/chart/) and [Data-Driven Documents, Defined](http://datadrivenjournalism.net/resources/data_driven_documents_defined).
 
-Beyond D3.js have a look at [Google Charts](https://developers.google.com/chart/), [jit](http://philogb.github.io/jit/), [three.js](http://threejs.org/), [polychart.js](http://www.polychartjs.com/), [PhiloGL](http://www.senchalabs.org/philogl/), and [Flotr2](http://www.humblesoftware.com/flotr2/) for a range of great web vis libraries.
+Beyond D3.js have a look at [Highcharts](http://www.highcharts.com/), [Google Charts](https://developers.google.com/chart/), [jit](http://philogb.github.io/jit/), [three.js](http://threejs.org/), [polychart.js](http://www.polychartjs.com/), [PhiloGL](http://www.senchalabs.org/philogl/), and [Flotr2](http://www.humblesoftware.com/flotr2/) for a range of great web vis libraries.
 
 #### Visualisation as a Service
 
-For some quick out-of-the-box charting [plot.lt](https://plot.ly/) and [infogr.am](https://infogr.am/) both offer great charting as a service tools for easy prototyping without having to write any code.
+For some quick out-of-the-box charting [plot.lt](https://plot.ly/), [Datawrapper](https://datawrapper.de/), and [infogr.am](https://infogr.am/) both offer great charting as a service tools for easy prototyping without having to write any code.
+
 
 #### Desktop tools
 
@@ -286,8 +289,17 @@ Google Maps [may have popularised mapping](http://www.theguardian.com/technology
 
 If you're new to working with spatial data then we **highly recommend** reading Tom MacWright's truly excellent [mapschool: a free introduction to geo](http://mapschool.io/) site. You can skim through it in about half an hour and get up to speed on the basics of spatial data, learn about the common data types, and likely pick up some knowledge that will save you a lot of frustration down the line.
 
-### Finding datasets
+### Quick and dirty - just show me what the data looks like
 
+The first thing you'll probably want to do when you find data is to actually just quickly view it to see what it looks like, check if the data is what you thought it was, if the geographic distribution is about right, et cetera.
+
+Well, there's a couple of options.
+
+For really quick and simple viewing you can drop most common sorts of spatial vector data on [geojson.io](http://geojson.io/) and see a quick representation of it (as well as then exporting it back out to a different format). All of the processing is client-side though, so you might want to avoid giving it a huge or complex dataset. [MapStarter](http://mapstarter.com/) is another similar service, though it only allows you to export the data as an image (or a simple web map).
+
+Oh - and did you know that GitHub [will render any GeoJSON files](https://help.github.com/articles/mapping-geojson-files-on-github/) that you commit to your repo. Fun!
+
+For any larger or more complex datasets [QGIS](http://www.qgis.org) is a great open source cross-platform tool for viewing any and every type of spatial data.
 
 ### Converting between data formats
 
@@ -297,7 +309,7 @@ For small datasets (< 10mb) [MyGeoData](http://converter.mygeodata.eu/) will let
 
 If command-line tools aren't your thing skip down a bit to the section on QGIS for a cross-platform GUI built on, amongst other things, GDAL.
 
-Oh - and there are GDAL bindings available for [Perl](http://trac.osgeo.org/gdal/wiki/GdalOgrInPerl), [Python](http://trac.osgeo.org/gdal/wiki/GdalOgrInPython), [Java](http://trac.osgeo.org/gdal/wiki/GdalOgrInJava), [C#/.NET](http://trac.osgeo.org/gdal/wiki/GdalOgrInCsharp), [Ruby](http://trac.osgeo.org/gdal/wiki/GdalOgrInRuby), and [R](http://trac.osgeo.org/gdal/wiki/GdalOgrInR). Scroll on down to the [Language bindings](#Language_bindings) section for more suggestions of libraries to use in your favourite language.
+Oh - and there are GDAL bindings available for [Perl](http://trac.osgeo.org/gdal/wiki/GdalOgrInPerl), [Python](http://trac.osgeo.org/gdal/wiki/GdalOgrInPython), [Java](http://trac.osgeo.org/gdal/wiki/GdalOgrInJava), [C#/.NET](http://trac.osgeo.org/gdal/wiki/GdalOgrInCsharp), [Ruby](http://trac.osgeo.org/gdal/wiki/GdalOgrInRuby), and [R](http://trac.osgeo.org/gdal/wiki/GdalOgrInR). Scroll on down to the [Spatial analysis](#working-with-geographic-data-and-maps-analysis) section for more suggestions of libraries to use in your favourite language.
 
 ### Geocoding - turning an address into coordinates
 
@@ -575,6 +587,8 @@ On the website scraping end of the equation there are a few desktop and web-base
 
 In Python-land there's [Scrapy](http://scrapy.org/) - a neat framework for extracting data from the web with a strong community and easily extensible codebase. You can think of Scrapy as being the next level up from libraries like [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/) and [lxml](http://lxml.de/) (which excel at parsing HTML and XML) in that it incorporates higher level concepts of scraping like spiders, selectors, and items.
 
+Likewise, [Scrapekit](http://scrapekit.readthedocs.org/en/latest/) is awesome and includes a range of advanced features such as caching, multi-threading, and logging.
+
 [This Quora post](http://www.quora.com/What-are-some-good-free-web-scrapers-scraping-techniques) has a good thread with suggestions for scraping frameworks in a variety of languages.
 
 
@@ -687,56 +701,14 @@ The text of this toolkit is open for reuse under a [Creative Commons Attribution
 
 
 # Document @TODOs
-* Links in the intro
-* Anatomy: Amusing anatomy image in the sidebar
-* Anatomy: Link to info on open licenses
-* Prepare video: Are there any new (free) tools available?
-* Submit project: Open license links and info
-* Data section: Does it even need to be here? The website features the 2015 Data page pretty prominently
-* The right tools for the job: An Agile image
-* Data Viz: What of "Designing for humans" section?
-* Data Viz: What of "Hone your programming skills" section?
-* Building and designing your own API: Flask?
-* QGIS: Mention ArcGIS, GRASSGIS, uDIG, et cetera?
-* Spatial "Language bindings" section: Rename? Need to fix the link in the "Converting between data formats" section if so.
-* Working with geographic data and maps: GeoJson/TopoJson, GitHub viewing
-* Working with geographic data and maps: Principles of components need for spatial [here](http://georabble.org/2012/05/31/the-boundary-mappers-cookbook/)
-* @TODO Finding geospatial data:
-** Link to relevant spatial section of the GovHack Data page? As per the 'Data section' @TODO
-** Point at the ABS Geography site (asga2pgsql), Census data, GA's Find
-** There are a variety of base layers like [AGRI aerial imagery of Australia](http://agri.openstreetmap.org/) or WMS services like [GIS Lab WMS](http://irs.gis-lab.info/) or the [OSM TMS Service](http://www.gdal.org/frmt_wms_openstreetmap_tms.xml). Check out the [Geoscience Australia Geo Dataset search and preview](http://www.ga.gov.au/search/index.html#/showMap). ASGS from ABS including suburbs/postcodes [Andrew Harvey](https://andrewharvey4.wordpress.com/2012/04/15/loading-the-asgs-into-postgresql-in-preperation-for-the-abs-2011-census-data-release/). You can also get KML layers for various statistical measures on the [ABS TableBuilder tool](http://www.abs.gov.au/websitedbs/censushome.nsf/home/tablebuilder).
-
-
-* Loot anything good in the last version that hasn't yet been pulled across
-* Think about breaking the non-technical sections (Anatomy of a GovHack project, Preparing for GovHack, ...) off into a separate "Event Information" page (e.g. http://perth.govhack.org/category/event/).
+* Review the old version side-by-side for any missed content
+* Think about breaking the non-technical sections (Anatomy of a GovHack project, Preparing for GovHack, ...) off into a separate "Event Information" page (e.g. http://perth.govhack.org/category/event/). Talk with H about porting some of the perth.govhack.org content over to a sort of GovHack Orientation Thingo (along w/ the top of this doc)
 * Making it play nicely with the Wordpress theme.
 * Incorporating screenshots, company logos, amusing pics to break up the wall of text.
-* Making the left side menu scroll along with the body content, and highlight section titles.
-* Run it past some participants for input
-* Helen will also review for writing, consistency, and all of that good stuff
-
-
-* Rename "Technical Considerations"?
-* Review content (e.g. tools) that weren't directly reworded
-* Review tools sections for newer tools!
-* The web and mobile examples sections were junked (inc. The Open Budget). Are they useful in this context?
-* Review "Developer tools for your computer"
-* Stick Vagrant/Docker/Fig somewhere
-* Talk with H about porting some of the perth.govhack.org content over to a sort of GovHack Orientation Thingo (along w/ the top of this doc)
-* Make it easier / more prominent to leave feedback
-* Run past a couple of participants for feedback on layout, UX, and content.
-* Something about spatial for Android and iOS
-* Add http://mapstarter.com/
-* Highcharts et cetera
-* Plot.ly, Create.ly, et cetera
-* Loot http://geothought.blogspot.com.au/2015/03/review-of-foss4g-na-2015.html for more shiny spatial tools. Oh so many shiny!
-* Link the data viz and web mapping sections.
-* Mention https://github.com/sorrycc/awesome-javascript and stuff
-* FME
-* http://community.pentaho.com/projects/data-integration/
-* Python geospatial viz http://ioam.github.io/holoviews/
-* [Datawrapper](https://datawrapper.de/) Create charts and maps in just four steps. This tool reduces the time you need to create visualizations from hours to minutes.
-* OpenRefine in "Scraping data"
-* High-level link to https://github.com/quozd/awesome-dotnet for various popular languages ("If you can't find..look here"). Orrrrr should we - longer-term - just contribute to those rather than making so many words around them in the toolkit?
+** Amusing anatomy image in the sidebar
+** The right tools for the job: An Agile image
+* Run it past some participants for input (feedback on layout, UX, and content
 * Ping Nick Evershed re the visualisation sections
-* http://scrapekit.readthedocs.org/en/latest/
+* Helen will also review for writing, consistency, and all of that good stuff
+* The web and mobile examples sections were junked (inc. The Open Budget). Are they useful in this context?
+* Longer-term - just contribute to / maintain one of the https://github.com/t3chnoboy/awesome-awesome-awesome rather than having so many words around them in the toolkit?
