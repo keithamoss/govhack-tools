@@ -157,13 +157,13 @@ We're going to list a whole lot of tools and libraries in the rest of this docum
 
 # Preparing for GovHack
 
-Whilst you're not allowed to actually work on your project until the weekend of GovHack itself that doesn't mean you can't be preparing and learning new skills and tools beforehand.
+Whilst you're not allowed to actually work on your project until the weekend of GovHack itself, that doesn't mean you can't be preparing and learning new skills and tools beforehand.
 
 ## Become a data scientist in an hour
 
 <!-- "Look at me: still talking when there's [data] science to do!" -- GLaDOS -->
 
-There's so much more to working with data than taking your nicely formatted CSV file and throwing it at a software package that will generate pretty graphs, or widgets, or maps out of it. That's just the easy bit - what does your data **actually** mean?
+There's so much more to working with data than taking your nicely formatted dataset and throwing it at a software package that will generate pretty graphs, or widgets, or maps out of it. That's just the easy bit - what does your data **actually** mean?
 
 There are three basic rules to follow when doing data science:
 
@@ -173,7 +173,7 @@ There are three basic rules to follow when doing data science:
 
 3. *Analyse and present your findings* - Be upfront and honest in presenting your project. Did you meet your original goal? Was your original hypothesis valid? How did you iterate to get to the final version?
 
-If you'd like to strengthen your knowledge in any of the facets of data science check out these handy resources:
+If you'd like to hone your knowledge check out these handy resources:
 
 ### Data Science
 * The *"Understanding Data"* and *"Delivering Data"* chapters of the (free) [Data Journalism Handbook](http://datajournalismhandbook.org/).
@@ -701,12 +701,10 @@ The text of this toolkit is open for reuse under a [Creative Commons Attribution
 
 
 # Document @TODOs
-* Review the old version side-by-side for any missed content
-* Think about breaking the non-technical sections (Anatomy of a GovHack project, Preparing for GovHack, ...) off into a separate "Event Information" page (e.g. http://perth.govhack.org/category/event/). Talk with H about porting some of the perth.govhack.org content over to a sort of GovHack Orientation Thingo (along w/ the top of this doc)
 * Incorporating screenshots, company logos, amusing pics to break up the wall of text.
-** Amusing anatomy image in the sidebar
-** The right tools for the job: An Agile image
-* Run it past some participants for input (feedback on layout, UX, and content
 * Ping Nick Evershed re the visualisation sections
-* Helen will also review for writing, consistency, and all of that good stuff
+* Helen to review for writing, consistency, and all of that good stuff
+* Think about breaking the non-technical sections (Anatomy of a GovHack project, Preparing for GovHack, ...) off into a separate "Event Information" page (e.g. http://perth.govhack.org/category/event/). Talk with H about porting some of the perth.govhack.org content over to a sort of GovHack Orientation Thingo (along w/ the top of this doc).
+* Google Analytics
+* Longer-term(?): Look at using ReadTheDocs
 * Longer-term: Should we just contribute to / maintain one of the https://github.com/t3chnoboy/awesome-awesome-awesome rather than having so many words around them in the toolkit?

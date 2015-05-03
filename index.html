@@ -25,6 +25,10 @@
     Flatdoc.run({
       fetcher: Flatdoc.file(["index.md"])
     });
+
+    $(document).on('flatdoc:ready', function() {
+      $("[role=flatdoc-menu] ul.level-3").hide();
+    });
   </script>
 </head>
 <body role="flatdoc" class='large-brief'>
